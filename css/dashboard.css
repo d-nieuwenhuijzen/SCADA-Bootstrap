@@ -1,7 +1,46 @@
+:root {
+  --midori-black: #14181A; /*Background kleur vooral voor witte achtergronden en wordmark en symbolen */
+  --white: #FFFFFF; /*Achtergrond kleur, gebruikt voor tekst op midori achtergrond */
+  --deep-black: #0A0C0E; /*Gebruikt als achtergrond kleur om accent te geven aan midori achtergrond */
+  --hard-grey: #787B7C; /*Gebruikt voor labels gebruikt voor header twee, intro text op witte achtergrond, disclaimer tekst */
+  --medium-grey: #E4E4E4; /*Gebruikt om content op te splitsen, intro text op midori achtergrond*/
+  --soft-grey: #F7F7F7; /* Gebruikt als achtergrond voor accent op wit en midori */
+
+}
+
 a:link {
   text-decoration: none;
 }
 
 .card-height {
     width: 100px
+}
+
+.logo {
+  width: 200px;
+}
+
+/*background kleuren*/
+.midori-bg {
+  background-color: var(--midori-black);
+}
+
+.white-bg {
+  background-color: var(--white);
+}
+
+.deep-bg {
+  background-color: var(--deep-black);
+}
+
+.hard-bg {
+  background-color: var(--hard-grey);
+}
+
+.medium-bg {
+  background-color: var(--medium-grey);
+}
+
+.soft-bg {
+  background-color: var(--soft-grey);
 }
