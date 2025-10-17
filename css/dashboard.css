@@ -5,11 +5,11 @@
   --hard-grey: #787B7C; /*Gebruikt voor labels gebruikt voor header twee, intro text op witte achtergrond, disclaimer tekst */
   --medium-grey: #E4E4E4; /*Gebruikt om content op te splitsen, intro text op midori achtergrond*/
   --soft-grey: #F7F7F7; /* Gebruikt als achtergrond voor accent op wit en midori */
-
 }
 
-a:link {
+a {
   text-decoration: none;
+  color: var(--white);
 }
 
 .card-height {
